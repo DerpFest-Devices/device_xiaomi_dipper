@@ -12,6 +12,9 @@ IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
 
+#official building
+DERP_BUILDTYPE := Official
+IS_OFFICIAL := true
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
