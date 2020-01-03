@@ -14,8 +14,8 @@ $(call inherit-product-if-exists, vendor/xiaomi/dipper/dipper-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2248
 TARGET_SCREEN_WIDTH := 1080
 
-# ANXCamera
-$(call inherit-product, packages/apps/ANXCamera/Android.mk)
+# MiuiCamera
+$(call inherit-product, vendor/MiuiCamera/Android.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -106,6 +106,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/pn5xx
 
-# ANXCamera
-PRODUCT_PACKAGES += \
-    ANXCamera
+

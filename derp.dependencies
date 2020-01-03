@@ -10,9 +10,9 @@
     "branch": "ten"
   },
   {
-    "repository": "ALKALiKong233/packages_apps_ANXCamera",
-    "target_path": "packages/apps/ANXCamera",
-    "branch": "ten",
+    "repository": "PixelExperience-Devices/vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch": "ten-anx",
     "remote": "github"
   }
 ]
