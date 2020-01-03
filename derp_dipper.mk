@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 IS_PHONE := true
-TARGET_INCLUDE_WIFI_EXT := true
+TARGET_INCLUDE_WIFI_EXT := false
 TARGET_INCLUDE_STOCK_ARCORE := true
 #official building
 DERP_BUILDTYPE := Official
