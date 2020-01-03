@@ -1,18 +1,18 @@
 [
   {
-    "repository": "device_xiaomi_sdm845-common",
+    "repository": "device_xiaomi_sdm845-common_no_gapps",
     "target_path": "device/xiaomi/sdm845-common",
     "branch": "ten"
   },
   {
-    "repository":  "kernel_xiaomi_dipper",
+    "repository":  "kernel_xiaomi_dipper_no_gapps",
     "target_path": "kernel/xiaomi/dipper",
     "branch": "ten"
   },
   {
-    "repository": "packages_apps_PixelLiveWallpaper",
-    "target_path": "packages/apps/PixelLiveWallpaper",
+    "repository": "ALKALiKong233/packages_apps_ANXCamera",
+    "target_path": "packages/apps/ANXCamera",
     "branch": "ten",
-    "remote": "pixel-gitlab"
+    "remote": "github"
   }
 ]
