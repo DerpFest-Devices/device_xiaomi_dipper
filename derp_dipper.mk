@@ -6,12 +6,9 @@
 
 $(call inherit-product, device/xiaomi/dipper/device.mk)
 
-# GApps targets
-TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
-TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
-
+TARGET_INCLUDE_STOCK_ARCORE := true
 #official building
 DERP_BUILDTYPE := Official
 IS_OFFICIAL := true
