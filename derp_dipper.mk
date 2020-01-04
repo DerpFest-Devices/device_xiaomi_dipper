@@ -6,6 +6,7 @@
 
 $(call inherit-product, device/xiaomi/dipper/device.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 TARGET_INCLUDE_WIFI_EXT := false
 TARGET_INCLUDE_STOCK_ARCORE := true

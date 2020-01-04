@@ -14,5 +14,11 @@
     "target_path": "vendor/MiuiCamera",
     "branch": "ten-anx",
     "remote": "github"
+  },
+  {
+    "repository": "MoKee/android_packages_apps_Lawnchair",
+    "target_path": "packages/apps/Lawnchair",
+    "branch": "master",
+    "remote": "github"
   }
 ]
