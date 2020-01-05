@@ -124,6 +124,7 @@ PRODUCT_PACKAGES += \
     messaging \
     Lawnchair \
     gboard \
-    MiuiCamera
+    gcam \
+    Camera2
 
-#Please remove packages/apps/Messaging if you use MK_Messaging in dts.
+#put ur gcam to packages/apps/gcam
