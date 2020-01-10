@@ -16,9 +16,9 @@
     "remote": "github"
   },
   {
-    "repository": "MoKee/android_packages_apps_Lawnchair",
-    "target_path": "packages/apps/Lawnchair",
-    "branch": "master",
+    "repository": "AOSiP/platform_packages_apps_DocumentsUI.",
+    "target_path": "packages/apps/DocumentsUI",
+    "branch": "ten",
     "remote": "github"
   }
 ]

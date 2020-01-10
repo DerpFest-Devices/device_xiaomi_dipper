@@ -122,9 +122,36 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     via \
     messaging \
-    Lawnchair \
     gboard \
     gcam \
-    Camera2
+    quickswitch
 
 #put ur gcam to packages/apps/gcam
+
+# AOSP apps
+PRODUCT_PACKAGES += \
+    WallpaperPicker \
+    messaging \
+    WAPPushManager \
+    WallpaperPicker \
+    Browser2 \
+    Calendar \
+    Camera2 \
+    Contacts \
+    DeskClock \
+    Email \
+    Gallery2 \
+    LatinIME \
+    Launcher3QuickStep \
+    Music \
+    OneTimeInitializer \
+    Provision \
+    QuickSearchBox \
+    Settings \
+    SettingsIntelligence \
+    StorageManager \
+    CarrierConfig \
+    Dialer \
+    EmergencyInfo \
+    StorageManager \
+    DocumentsUI
