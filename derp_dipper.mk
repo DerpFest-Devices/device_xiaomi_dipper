@@ -13,6 +13,8 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 #official building
 DERP_BUILDTYPE := Official
 IS_OFFICIAL := true
+#Updater json
+FORCE_JSON=1
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
