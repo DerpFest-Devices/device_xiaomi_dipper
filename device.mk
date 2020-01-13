@@ -123,8 +123,7 @@ PRODUCT_PACKAGES += \
     via \
     messaging \
     gboard \
-    gcam \
-    quickswitch
+    gcam
 
 #put ur gcam to packages/apps/gcam
 
