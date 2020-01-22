@@ -104,6 +104,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/pn5xx
 
+
 # other apps
 PRODUCT_PACKAGES += \
     via \
