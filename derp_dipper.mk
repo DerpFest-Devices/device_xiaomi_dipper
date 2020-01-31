@@ -11,15 +11,11 @@ $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_WIFI_EXT := false
+TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 FORCE_JSON=1
 DERP_BUILDTYPE := Official
 CURRENT_BUILD_TYPE := gapps
-
-# Device maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.derp.maintainer=ALKALiKong
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_dipper
