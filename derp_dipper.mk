@@ -18,8 +18,6 @@ IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-else
-LAWNCHAIR_OPTOUT := true
 endif
 
 # Device identifier. This must come after all inclusions.
