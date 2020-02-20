@@ -20,7 +20,7 @@ TARGET_USES_COLOR_METADATA := true
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/dipper
-TARGET_KERNEL_CONFIG := twisted_mi8_defconfig
+TARGET_KERNEL_CONFIG := simple-dipper_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
