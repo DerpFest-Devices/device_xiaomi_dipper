@@ -35,4 +35,4 @@ export VENDOR=xiaomi
 
 export DEVICE_BRINGUP_YEAR=2018
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"/home/julliandev2/derp/device/xiaomi/sdm845-common/extract-files.sh" "$@"

@@ -14,4 +14,4 @@ export VENDOR=xiaomi
 
 export DEVICE_BRINGUP_YEAR=2018
 
-"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
+"/home/julliandev2/derp/device/xiaomi/sdm845-common/setup-makefiles.sh" "$@"
