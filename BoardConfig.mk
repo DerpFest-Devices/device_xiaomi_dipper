@@ -17,7 +17,7 @@ TARGET_USES_COLOR_METADATA := true
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/dipper
-TARGET_KERNEL_CONFIG := dipper_defconfig
+TARGET_KERNEL_CONFIG := revenge_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
