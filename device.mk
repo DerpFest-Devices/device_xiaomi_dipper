@@ -24,11 +24,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     Camera2
 
-#PixelSounds
-ifeq ($(DERP_BUILD_ZIP_TYPE), VANILLA)
-PRODUCT_PACKAGES += \
-    PixelSounds
-endif
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
